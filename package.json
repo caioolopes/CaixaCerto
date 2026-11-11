@@ -14,17 +14,19 @@
   "author": "",
   "type": "module",
   "main": "index.ts",
-  "scripts": {
-    "dev": "npx prisma generate && next dev",
-    "dev:db": "docker compose up -d && sleep 3 && npx prisma generate && npx prisma migrate deploy && next dev",
-    "build": "next build",
-    "test": "vitest run",
-    "prepare": "husky",
-    "commit": "cz",
-    "lint:prettier:check": "prettier --check .",
-    "lint:prettier:fix": "prettier --write .",
-    "lint:eslint:check": "next lint --dir ."
-  },
+ "scripts": {
+  "dev": "npx prisma generate && next dev",
+  "dev:db": "docker compose up -d && sleep 3 && npx prisma generate && npx prisma migrate deploy && next dev",
+  "build": "npx prisma generate && next build",
+  "start": "next start",
+  "lint": "next lint",
+  "test": "vitest run",
+  "prepare": "husky",
+  "commit": "cz",
+  "lint:prettier:check": "prettier --check .",
+  "lint:prettier:fix": "prettier --write .",
+  "lint:eslint:check": "next lint --dir ."
+},
   "dependencies": {
     "@faker-js/faker": "10.6.0",
     "@network-utils/tcp-ping": "1.2.3",
