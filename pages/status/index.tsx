@@ -47,7 +47,7 @@ function UpdatedAt() {
     fetchAPI,
     {
       refreshInterval: 2000,
-    }
+    },
   );
 
   let updatedAtText = "Carregando...";
@@ -70,7 +70,7 @@ function DatabaseStatus() {
     fetchAPI,
     {
       refreshInterval: 2000,
-    }
+    },
   );
 
   let databaseStatusInformation: ReactNode = (
@@ -200,13 +200,13 @@ const styles: Record<string, CSSProperties> = {
   },
   metricValue: {
     color: "#f8fafc",
-    fontFamily: 'monospace',
+    fontFamily: "monospace",
     fontWeight: 600,
     fontSize: "15px",
   },
   metricHighlight: {
     color: "#60a5fa", // Destaque em azul
-    fontFamily: 'monospace',
+    fontFamily: "monospace",
     fontWeight: 700,
     fontSize: "16px",
   },

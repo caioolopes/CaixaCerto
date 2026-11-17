@@ -1,8 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
   provider = "prisma-client"
   output   = "../src/generated/prisma"
@@ -11,6 +6,7 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
 enum BillStatus {
   PENDING
   PAID
@@ -23,7 +19,7 @@ model User {
   email               String               @unique
   password            String
   createdAt           DateTime             @default(now()) @map("created_at")
-  updatedAt           DateTime             @updatedAt @map("updated_at")
+  updatedAt           DateTime             @default(now()) @updatedAt @map("updated_at")
 
   sessions            Session[]
   contasPagar         ContaPagar[]
@@ -40,7 +36,7 @@ model Session {
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   expiresAt DateTime @map("expires_at")
   createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at")
 
   @@index([userId])
   @@map("sessions")
@@ -55,7 +51,7 @@ model ContaPagar {
   dueDate   DateTime?  @map("due_date")
   status    BillStatus @default(PENDING)
   createdAt DateTime   @default(now()) @map("created_at")
-  updatedAt DateTime   @updatedAt @map("updated_at")
+  updatedAt DateTime   @default(now()) @updatedAt @map("updated_at")
 
   @@index([userId])
   @@map("contas_pagar")
@@ -70,7 +66,7 @@ model ContaReceber {
   dueDate   DateTime?  @map("due_date")
   status    BillStatus @default(PENDING)
   createdAt DateTime   @default(now()) @map("created_at")
-  updatedAt DateTime   @updatedAt @map("updated_at")
+  updatedAt DateTime   @default(now()) @updatedAt @map("updated_at")
 
   @@index([userId])
   @@map("contas_receber")

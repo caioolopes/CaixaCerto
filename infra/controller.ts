@@ -25,7 +25,7 @@ function onErrorHandler(error, request, response) {
 
   const publicErrorObject = new InternalServerError({
     cause: error,
-  statusCode: 500,
+    statusCode: 500,
   });
 
   console.error(publicErrorObject);

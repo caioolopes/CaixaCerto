@@ -1,0 +1,14 @@
+{
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/v1/sessions": "pages/api/v1/sessions.js",
+  "/api/v1/status": "pages/api/v1/status.js",
+  "/api/v1/user": "pages/api/v1/user.js",
+  "/api/v1/users": "pages/api/v1/users.js",
+  "/api/v1/users/[username]": "pages/api/v1/users/[username].js",
+  "/dashboard": "pages/dashboard.html",
+  "/status": "pages/status.html",
+  "/404": "pages/404.html"
+}
