@@ -48,9 +48,7 @@ export default function HomePage() {
 
     const endpoint = mode === "login" ? "/api/v1/sessions" : "/api/v1/users";
     const body =
-      mode === "login"
-        ? { email, password }
-        : { username, email, password };
+      mode === "login" ? { email, password } : { username, email, password };
 
     try {
       const response = await fetch(endpoint, {
@@ -144,8 +142,8 @@ export default function HomePage() {
               <div className="feature-item">
                 <span className="dot" />
                 <div>
-                  <strong>DRE e Fluxo:</strong> Visualize relatórios analíticos de
-                  lucratividade e liquidez.
+                  <strong>DRE e Fluxo:</strong> Visualize relatórios analíticos
+                  de lucratividade e liquidez.
                 </div>
               </div>
             </div>
@@ -161,7 +159,8 @@ export default function HomePage() {
             <i />
           </div>
           <p className="panel-note">
-            Organização precisa para empresas que buscam crescimento sustentável.
+            Organização precisa para empresas que buscam crescimento
+            sustentável.
           </p>
         </div>
       </section>
@@ -193,7 +192,11 @@ export default function HomePage() {
             </div>
           )}
 
-          <div className="mode-switch" role="tablist" aria-label="Tipo de acesso">
+          <div
+            className="mode-switch"
+            role="tablist"
+            aria-label="Tipo de acesso"
+          >
             <button
               className={isLogin ? "active" : ""}
               onClick={() => changeMode("login")}
@@ -275,8 +278,8 @@ export default function HomePage() {
               {loading
                 ? "Processando..."
                 : isLogin
-                ? "Entrar no sistema"
-                : "Criar minha conta"}
+                  ? "Entrar no sistema"
+                  : "Criar minha conta"}
               <span aria-hidden="true">→</span>
             </button>
           </form>

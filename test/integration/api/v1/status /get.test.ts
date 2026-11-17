@@ -1,5 +1,5 @@
 import orchestrator from "../../../../orchestrator";
-import { beforeAll, describe, test, expect } from "vitest"
+import { beforeAll, describe, test, expect } from "vitest";
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
@@ -16,7 +16,7 @@ describe("GET /api/v1/status", () => {
       const parsedUpdatedAt = new Date(responseBody.updated_at).toISOString();
       expect(responseBody.updated_at).toEqual(parsedUpdatedAt);
 
-      expect(responseBody.dependencies.database.version).toEqual("16.15");
+      expect(responseBody.dependencies.database.version).toEqual("16.16");
       expect(responseBody.dependencies.database.max_connections).toEqual(100);
       expect(responseBody.dependencies.database.opened_connections).toEqual(1);
     });

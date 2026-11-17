@@ -1,0 +1,499 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><noscript data-n-css=""></noscript><script src="/_next/static/chunks/151pzv69j7nij.js" defer=""></script><script src="/_next/static/chunks/0_dqy-vq81hrm.js" defer=""></script><script src="/_next/static/chunks/turbopack-3x2wftjfc_4ex.js" defer=""></script><script src="/_next/static/chunks/0cgao1g14rqnh.js" defer=""></script><script src="/_next/static/chunks/turbopack-1u3qtumiazsqs.js" defer=""></script><script src="/_next/static/J3DUnmZSuAFGynR912UVx/_buildManifest.js" defer=""></script><script src="/_next/static/J3DUnmZSuAFGynR912UVx/_ssgManifest.js" defer=""></script><script src="/_next/static/J3DUnmZSuAFGynR912UVx/_clientMiddlewareManifest.js" defer=""></script></head><body><div id="__next"><main class="auth-shell "><section class="intro-panel" aria-label="Sobre o CaixaCerto"><div class="topbar"><div class="brand-mark" aria-hidden="true"><span>$</span></div><div class="theme-switch" aria-label="Escolher tema"><button class="active" type="button" aria-pressed="true">Tema claro</button><button class="" type="button" aria-pressed="false">Tema escuro</button></div></div><div class="hero-block"><p class="eyebrow">CAIXACERTO / GESTÃO FINANCEIRA</p><h1>O controle total do seu caixa.</h1><p class="intro-copy">Contas a pagar, contas a receber e previsibilidade de fluxo de caixa em uma plataforma segura e intuitiva.</p><div class="features-card"><p class="eyebrow">GESTÃO EMPRESARIAL INTEGRADA</p><h2>Mantenha as contas em dia.</h2><div class="features-list"><div class="feature-item"><span class="dot"></span><div><strong>Contas a Receber:</strong> Acompanhe faturas, prazos e baixas em tempo real.</div></div><div class="feature-item"><span class="dot"></span><div><strong>Contas a Pagar:</strong> Elimine juros por atraso e organize despesas fixas e variáveis.</div></div><div class="feature-item"><span class="dot"></span><div><strong>DRE e Fluxo:</strong> Visualize relatórios analíticos de lucratividade e liquidez.</div></div></div></div></div><div class="footer-intro"><div class="signal-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p class="panel-note">Organização precisa para empresas que buscam crescimento sustentável.</p></div></section><section class="form-panel"><div class="form-wrap"><div class="form-heading"><p class="eyebrow">ACESSO SEGURO</p><h2>Bem-vindo de volta.</h2><p>Entre para gerenciar o caixa da sua empresa.</p></div><div class="mode-switch" role="tablist" aria-label="Tipo de acesso"><button class="active" role="tab" aria-selected="true" type="button">Entrar</button><button class="" role="tab" aria-selected="false" type="button">Criar conta</button></div><form class="auth-form"><label><span>Email corporativo</span><input type="email" autoComplete="email" placeholder="voce@empresa.com.br" required="" value=""/></label><label><span>Senha</span><input type="password" autoComplete="current-password" placeholder="••••••••" minLength="6" required="" value=""/></label><a class="forgot-link" href="/esqueci-minha-senha">Esqueci minha senha</a><button class="submit-button" type="submit">Entrar no sistema<span aria-hidden="true">→</span></button></form><p class="legal-copy">Seus dados financeiros protegidos com criptografia de ponta a ponta.</p></div></section><style>
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #f8fafc; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        button, input { font: inherit; }
+
+        /* Estrutura principal */
+        .auth-shell {
+          min-height: 100vh;
+          display: grid;
+          grid-template-columns: minmax(0, 1.1fr) minmax(420px, 0.9fr);
+          background: #f8fafc;
+        }
+
+        /* Painel Esquerdo (Apresentação CaixaCerto) */
+        .intro-panel {
+          padding: clamp(32px, 6vw, 80px);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          min-height: 100vh;
+          border-right: 1px solid #e2e8f0;
+          background: #f1f5f9;
+        }
+
+        .topbar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+        }
+
+        .brand-mark {
+          width: 44px;
+          height: 44px;
+          display: grid;
+          place-items: center;
+          border: 1px solid #0284c7;
+          border-radius: 8px;
+          background: #e0f2fe;
+          color: #0369a1;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 1;
+        }
+
+        .theme-switch {
+          display: flex;
+          gap: 3px;
+          padding: 3px;
+          border: 1px solid #cbd5e1;
+          border-radius: 6px;
+          background: #e2e8f0;
+        }
+
+        .theme-switch button {
+          padding: 6px 12px;
+          border: 0;
+          border-radius: 4px;
+          background: transparent;
+          color: #64748b;
+          cursor: pointer;
+          font-size: 11px;
+          font-weight: 600;
+        }
+
+        .theme-switch button.active {
+          background: #ffffff;
+          color: #0f172a;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .hero-block {
+          margin: 40px 0;
+        }
+
+        .eyebrow {
+          margin: 0 0 12px;
+          color: #0284c7;
+          font-size: 11px;
+          letter-spacing: 1.5px;
+          font-weight: 700;
+        }
+
+        h1, h2, p { margin-top: 0; }
+
+        h1 {
+          max-width: 580px;
+          margin-bottom: 20px;
+          font-size: clamp(38px, 5vw, 64px);
+          line-height: 1.05;
+          letter-spacing: -1.5px;
+          font-weight: 800;
+          color: #0f172a;
+        }
+
+        .intro-copy {
+          max-width: 460px;
+          color: #475569;
+          font-size: 17px;
+          line-height: 1.6;
+        }
+
+        .features-card {
+          max-width: 520px;
+          margin-top: 32px;
+          padding: 24px;
+          border: 1px solid #cbd5e1;
+          border-radius: 12px;
+          background: #ffffff;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .features-card h2 {
+          margin: 6px 0 16px;
+          font-size: 20px;
+          font-weight: 700;
+          color: #0f172a;
+        }
+
+        .features-list {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .feature-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 10px;
+          font-size: 13px;
+          color: #475569;
+          line-height: 1.4;
+        }
+
+        .feature-item strong {
+          color: #0f172a;
+        }
+
+        .feature-item .dot {
+          width: 8px;
+          height: 8px;
+          margin-top: 5px;
+          border-radius: 50%;
+          background: #0284c7;
+          flex-shrink: 0;
+        }
+
+        .footer-intro {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        .signal-line {
+          display: flex;
+          align-items: end;
+          gap: 5px;
+          height: 32px;
+        }
+
+        .signal-line i {
+          display: block;
+          width: 5px;
+          background: #0284c7;
+          border-radius: 2px;
+          animation: pulse 1.8s ease-in-out infinite;
+        }
+
+        .signal-line i:nth-child(1) { height: 14px; animation-delay: .1s; }
+        .signal-line i:nth-child(2) { height: 24px; animation-delay: .25s; }
+        .signal-line i:nth-child(3) { height: 32px; animation-delay: .4s; }
+        .signal-line i:nth-child(4) { height: 20px; animation-delay: .55s; }
+        .signal-line i:nth-child(5) { height: 28px; animation-delay: .7s; }
+
+        .panel-note, .legal-copy {
+          color: #64748b;
+          font-size: 12px;
+          line-height: 1.5;
+        }
+
+        /* Painel Direito (Formulário) */
+        .form-panel {
+          display: grid;
+          place-items: center;
+          padding: 48px clamp(24px, 6vw, 90px);
+          background: #ffffff;
+        }
+
+        .form-wrap {
+          width: min(100%, 390px);
+        }
+
+        .form-heading h2 {
+          margin: 10px 0 8px;
+          font-size: 32px;
+          font-weight: 700;
+          letter-spacing: -0.5px;
+          color: #0f172a;
+        }
+
+        .form-heading > p:last-child {
+          color: #64748b;
+          font-size: 14px;
+          line-height: 1.5;
+        }
+
+        .register-benefits {
+          display: grid;
+          gap: 8px;
+          margin-top: 20px;
+          padding: 14px 0 2px;
+          border-top: 1px solid #e2e8f0;
+          color: #64748b;
+          font-size: 12px;
+          line-height: 1.4;
+        }
+
+        .benefits-title {
+          margin: 0 0 2px;
+          color: #0f172a;
+          font-size: 12px;
+          font-weight: 700;
+        }
+
+        .register-benefits span {
+          display: flex;
+          gap: 10px;
+          align-items: baseline;
+        }
+
+        .register-benefits b {
+          min-width: 18px;
+          color: #0284c7;
+          font-size: 11px;
+        }
+
+        .mode-switch {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 4px;
+          margin: 28px 0 24px;
+          padding: 4px;
+          border-radius: 8px;
+          background: #f1f5f9;
+        }
+
+        .mode-switch button {
+          padding: 10px;
+          border: 0;
+          border-radius: 6px;
+          color: #64748b;
+          background: transparent;
+          cursor: pointer;
+          font-size: 13px;
+          font-weight: 600;
+          transition: all 0.2s;
+        }
+
+        .mode-switch button.active {
+          background: #ffffff;
+          color: #0f172a;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08), inset 0 -2px #0284c7;
+        }
+
+        .auth-form {
+          display: grid;
+          gap: 16px;
+        }
+
+        label {
+          display: grid;
+          gap: 6px;
+        }
+
+        label span {
+          color: #475569;
+          font-size: 13px;
+          font-weight: 500;
+        }
+
+        input {
+          width: 100%;
+          padding: 13px 14px;
+          border: 1px solid #cbd5e1;
+          border-radius: 6px;
+          outline: 0;
+          background: #f8fafc;
+          color: #0f172a;
+          font-size: 14px;
+          transition: border-color .2s, box-shadow .2s;
+        }
+
+        input::placeholder {
+          color: #94a3b8;
+        }
+
+        input:focus {
+          border-color: #0284c7;
+          box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+        }
+
+        .feedback {
+          display: grid;
+          gap: 4px;
+          padding: 12px 14px;
+          border: 1px solid #fecdd3;
+          border-left: 3px solid #e11d48;
+          border-radius: 6px;
+          background: #fff1f2;
+          color: #9f1239;
+          font-size: 12px;
+          line-height: 1.4;
+        }
+
+        .feedback.success {
+          border-color: #bbf7d0;
+          border-left-color: #16a34a;
+          background: #f0fdf4;
+          color: #166534;
+        }
+
+        .feedback span {
+          color: #64748b;
+        }
+
+        .forgot-link {
+          justify-self: end;
+          margin-top: -6px;
+          color: #0284c7;
+          font-size: 12px;
+          font-weight: 500;
+          text-decoration: none;
+        }
+
+        .forgot-link:hover {
+          text-decoration: underline;
+        }
+
+        .submit-button {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 6px;
+          padding: 14px 18px;
+          border: 0;
+          border-radius: 6px;
+          background: #0284c7;
+          color: #ffffff;
+          cursor: pointer;
+          font-weight: 600;
+          font-size: 14px;
+          transition: background .2s;
+        }
+
+        .submit-button:hover:not(:disabled) {
+          background: #0369a1;
+        }
+
+        .submit-button:disabled {
+          cursor: wait;
+          opacity: .65;
+        }
+
+        .legal-copy {
+          margin: 24px 0 0;
+          text-align: center;
+        }
+
+        /* ---------------- TEMA ESCURO ---------------- */
+        .dark-theme {
+          background: #030712;
+          color: #f8fafc;
+        }
+
+        .dark-theme .intro-panel {
+          border-color: #1e293b;
+          background: #0b1120;
+        }
+
+        .dark-theme h1,
+        .dark-theme .features-card h2,
+        .dark-theme .form-heading h2,
+        .dark-theme .benefits-title {
+          color: #f8fafc;
+        }
+
+        .dark-theme .intro-copy {
+          color: #94a3b8;
+        }
+
+        .dark-theme .features-card {
+          border-color: #1e293b;
+          background: #0f172a;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .dark-theme .feature-item {
+          color: #94a3b8;
+        }
+
+        .dark-theme .feature-item strong {
+          color: #f8fafc;
+        }
+
+        .dark-theme .brand-mark {
+          border-color: #0284c7;
+          background: #082f49;
+          color: #38bdf8;
+        }
+
+        .dark-theme .form-panel {
+          background: #030712;
+        }
+
+        .dark-theme input {
+          border-color: #1e293b;
+          background: #0b1120;
+          color: #f8fafc;
+        }
+
+        .dark-theme input::placeholder {
+          color: #475569;
+        }
+
+        .dark-theme label span {
+          color: #94a3b8;
+        }
+
+        .dark-theme .form-heading > p:last-child,
+        .dark-theme .register-benefits,
+        .dark-theme .panel-note,
+        .dark-theme .legal-copy {
+          color: #64748b;
+        }
+
+        .dark-theme .register-benefits {
+          border-color: #1e293b;
+        }
+
+        .dark-theme .mode-switch {
+          background: #0f172a;
+        }
+
+        .dark-theme .mode-switch button {
+          color: #94a3b8;
+        }
+
+        .dark-theme .mode-switch button.active {
+          background: #1e293b;
+          color: #ffffff;
+          box-shadow: inset 0 -2px #38bdf8;
+        }
+
+        .dark-theme .theme-switch {
+          border-color: #1e293b;
+          background: #0f172a;
+        }
+
+        .dark-theme .theme-switch button {
+          color: #94a3b8;
+        }
+
+        .dark-theme .theme-switch button.active {
+          background: #1e293b;
+          color: #ffffff;
+        }
+
+        .dark-theme .feedback {
+          background: #4c0519;
+          border-color: #9f1239;
+          color: #fecdd3;
+        }
+
+        .dark-theme .feedback.success {
+          background: #052e16;
+          border-color: #166534;
+          color: #bbf7d0;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: .4; transform: scaleY(.7); }
+          50% { opacity: 1; transform: scaleY(1); }
+        }
+
+        @media (max-width: 860px) {
+          .auth-shell { display: block; }
+          .intro-panel {
+            min-height: auto;
+            padding: 32px 24px 48px;
+            border-right: 0;
+            border-bottom: 1px solid #e2e8f0;
+          }
+          .dark-theme .intro-panel {
+            border-bottom-color: #1e293b;
+          }
+          h1 { font-size: clamp(34px, 8vw, 48px); }
+          .form-panel { padding: 48px 24px 60px; }
+        }
+      </style></main></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"J3DUnmZSuAFGynR912UVx","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>

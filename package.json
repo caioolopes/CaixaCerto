@@ -14,19 +14,22 @@
   "author": "",
   "type": "module",
   "main": "index.ts",
- "scripts": {
-  "dev": "npx prisma generate && next dev",
-  "dev:db": "docker compose up -d && sleep 3 && npx prisma generate && npx prisma migrate deploy && next dev",
-  "build": "npx prisma generate && next build",
-  "start": "next start",
-  "lint": "next lint",
-  "test": "vitest run",
-  "prepare": "husky",
-  "commit": "cz",
-  "lint:prettier:check": "prettier --check .",
-  "lint:prettier:fix": "prettier --write .",
-  "lint:eslint:check": "next lint --dir ."
-},
+  "scripts": {
+    "dev": "npx prisma generate && next dev",
+    "dev:db": "docker compose up -d && sleep 3 && npx prisma generate && npx prisma migrate deploy && next dev",
+    "build": "npx prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ci": "start-server-and-test dev http://localhost:3000 test",
+    "prepare": "husky",
+    "commit": "cz",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write .",
+    "lint:eslint:check": "eslint .",
+    "lint:eslint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "@faker-js/faker": "10.6.0",
     "@network-utils/tcp-ping": "1.2.3",
@@ -43,37 +46,46 @@
     "swr": "2.5.1",
     "uuid": "14.0.2",
     "vitest": "4.1.11"
-
   },
   "devDependencies": {
+    "@commitlint/cli": "19.4.0",
+    "@commitlint/config-conventional": "19.2.2",
     "@swc/core": "1.16.1",
     "@types/async-retry": "1.4.9",
     "@types/node": "26.4.1",
     "@types/nodemailer": "8.0.2",
     "@types/pg": "8.23.1",
     "@types/react": "19.2.18",
-    "dotenv": "17.4.2",
-    "prisma": "^7.10.0",
-    "typescript": "5.9.3",
-    "unplugin-swc": "1.5.11",
-    "vite-tsconfig-paths": "6.1.1",
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "prettier": "3.3.3",
+    "dotenv": "17.4.2",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jest": "28.8.0",
-    "husky": "9.1.4"
+    "husky": "9.1.4",
+    "prettier": "3.3.3",
+    "prisma": "^7.10.0",
+    "start-server-and-test": "^3.0.13",
+    "typescript": "5.9.3",
+    "unplugin-swc": "1.5.11",
+    "vite-tsconfig-paths": "6.1.1"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
   "config": {
-  "commitizen": {
-    "path": "./node_modules/cz-conventional-changelog"
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:jest/recommended"
+  ],
+  "settings": {
+    "jest": {
+      "version": 29
+    }
   }
-}
 }

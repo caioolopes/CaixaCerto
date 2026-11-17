@@ -210,7 +210,7 @@ async function validateUniqueEmail(email) {
 
   if (results.rowCount > 0) {
     throw new ValidationError({
-        cause: null,
+      cause: null,
       message: "O email informado já está sendo utilizado.",
       action: "Utilize outro email para realizar esta operação.",
     });

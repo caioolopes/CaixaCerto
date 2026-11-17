@@ -34,12 +34,12 @@ async function clearDatabase() {
 const execAsync = util.promisify(exec);
 
 async function runPendingMigrations() {
-  console.log('Executando migrations do Prisma...');
+  console.log("Executando migrations do Prisma...");
   try {
-    const { stdout } = await execAsync('npx prisma migrate deploy');
+    const { stdout } = await execAsync("npx prisma migrate deploy");
     console.log(stdout);
   } catch (error) {
-    console.error('Erro ao executar as migrations:', error);
+    console.error("Erro ao executar as migrations:", error);
     throw error;
   }
 }
