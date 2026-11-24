@@ -1,4 +1,6 @@
 {
+  "/api/v1/accounts-payable": "pages/api/v1/accounts-payable.js",
+  "/api/v1/accounts-receivable": "pages/api/v1/accounts-receivable.js",
   "/api/v1/sessions": "pages/api/v1/sessions.js",
   "/api/v1/status": "pages/api/v1/status.js",
   "/api/v1/user": "pages/api/v1/user.js",

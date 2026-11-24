@@ -120,12 +120,12 @@ function HomePage() {
                                     children: "$"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 95,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -140,7 +140,7 @@ function HomePage() {
                                         children: "Tema claro"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -151,19 +151,19 @@ function HomePage() {
                                         children: "Tema escuro"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 105,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 98,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 94,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -174,14 +174,14 @@ function HomePage() {
                                 children: "CAIXACERTO / GESTÃO FINANCEIRA"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 119,
+                                lineNumber: 117,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
                                 children: "O controle total do seu caixa."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 120,
+                                lineNumber: 118,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -189,7 +189,7 @@ function HomePage() {
                                 children: "Contas a pagar, contas a receber e previsibilidade de fluxo de caixa em uma plataforma segura e intuitiva."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 121,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -200,14 +200,14 @@ function HomePage() {
                                         children: "GESTÃO EMPRESARIAL INTEGRADA"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 125,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                                         children: "Mantenha as contas em dia."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -220,7 +220,7 @@ function HomePage() {
                                                         className: "dot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 129,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -229,20 +229,20 @@ function HomePage() {
                                                                 children: "Contas a Receber:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 133,
+                                                                lineNumber: 131,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Acompanhe faturas, prazos e baixas em tempo real."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 130,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 128,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -252,7 +252,7 @@ function HomePage() {
                                                         className: "dot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 136,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -261,20 +261,20 @@ function HomePage() {
                                                                 children: "Contas a Pagar:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 140,
+                                                                lineNumber: 138,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Elimine juros por atraso e organize despesas fixas e variáveis."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 137,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 135,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -284,7 +284,7 @@ function HomePage() {
                                                         className: "dot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 143,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -293,38 +293,38 @@ function HomePage() {
                                                                 children: "DRE e Fluxo:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 145,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Visualize relatórios analíticos de lucratividade e liquidez."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 144,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 142,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 126,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 118,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -334,6 +334,16 @@ function HomePage() {
                                 className: "signal-line",
                                 "aria-hidden": "true",
                                 children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
+                                        fileName: "[project]/pages/index.tsx",
+                                        lineNumber: 155,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
+                                        fileName: "[project]/pages/index.tsx",
+                                        lineNumber: 156,
+                                        columnNumber: 13
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
                                         lineNumber: 157,
@@ -348,21 +358,11 @@ function HomePage() {
                                         fileName: "[project]/pages/index.tsx",
                                         lineNumber: 159,
                                         columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
-                                        fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 160,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
-                                        fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 161,
-                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 156,
+                                lineNumber: 154,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -370,19 +370,19 @@ function HomePage() {
                                 children: "Organização precisa para empresas que buscam crescimento sustentável."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 163,
+                                lineNumber: 161,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 155,
+                        lineNumber: 153,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 93,
+                lineNumber: 91,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -398,27 +398,27 @@ function HomePage() {
                                     children: "ACESSO SEGURO"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                                     children: isLogin ? "Bem-vindo de volta." : "Comece agora."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                     children: isLogin ? "Entre para gerenciar o caixa da sua empresa." : "Crie sua conta corporativa e assuma o controle financeiro."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 171,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this),
                         !isLogin && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -429,7 +429,7 @@ function HomePage() {
                                     children: "Com o CaixaCerto você pode:"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 182,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -438,14 +438,14 @@ function HomePage() {
                                             children: "01"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, this),
                                         " Controlar entradas e saídas sem planilhas complexas"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 183,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -454,14 +454,14 @@ function HomePage() {
                                             children: "02"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 188,
+                                            lineNumber: 187,
                                             columnNumber: 17
                                         }, this),
                                         " Monitorar inadimplência e vencimentos futuros"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 186,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -470,20 +470,20 @@ function HomePage() {
                                             children: "03"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 190,
                                             columnNumber: 17
                                         }, this),
                                         " Tomar decisões seguras com base em relatórios reais"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 190,
+                                    lineNumber: 189,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 182,
+                            lineNumber: 181,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -500,7 +500,7 @@ function HomePage() {
                                     children: "Entrar"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 200,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -512,13 +512,13 @@ function HomePage() {
                                     children: "Criar conta"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 209,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 196,
+                            lineNumber: 195,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
@@ -531,7 +531,7 @@ function HomePage() {
                                             children: "Nome de usuário"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 223,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -542,13 +542,13 @@ function HomePage() {
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 224,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 219,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
@@ -557,7 +557,7 @@ function HomePage() {
                                             children: "Email corporativo"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 234,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -569,13 +569,13 @@ function HomePage() {
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 232,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 230,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
@@ -584,7 +584,7 @@ function HomePage() {
                                             children: "Senha"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 242,
+                                            lineNumber: 245,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -597,13 +597,13 @@ function HomePage() {
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 246,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 241,
+                                    lineNumber: 244,
                                     columnNumber: 13
                                 }, this),
                                 isLogin && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -612,7 +612,7 @@ function HomePage() {
                                     children: "Esqueci minha senha"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 258,
                                     columnNumber: 15
                                 }, this),
                                 feedback && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -623,20 +623,20 @@ function HomePage() {
                                             children: feedback.message
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 269,
+                                            lineNumber: 272,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                             children: feedback.action
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 270,
+                                            lineNumber: 273,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 261,
+                                    lineNumber: 264,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -650,19 +650,19 @@ function HomePage() {
                                             children: "→"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 280,
+                                            lineNumber: 283,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 274,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 217,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -670,18 +670,18 @@ function HomePage() {
                             children: "Seus dados financeiros protegidos com criptografia de ponta a ponta."
                         }, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 284,
+                            lineNumber: 287,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.tsx",
-                    lineNumber: 170,
+                    lineNumber: 169,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 169,
+                lineNumber: 168,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("style", {
@@ -1186,13 +1186,13 @@ function HomePage() {
       `
             }, void 0, false, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 290,
+                lineNumber: 293,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.tsx",
-        lineNumber: 92,
+        lineNumber: 90,
         columnNumber: 5
     }, this);
 }

@@ -32,9 +32,11 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$use$2d$swr$2d$emll9s78$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__u__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/swr/dist/use-swr-emll9s78.mjs [client] (ecmascript) <export u as default>");
 ;
 var _s = __turbopack_context__.k.signature();
+;
 ;
 ;
 async function fetchCurrentUser(url) {
@@ -107,14 +109,14 @@ function DashboardPage() {
                     children: error && error.status !== 401 ? "Não foi possível carregar sua área inicial." : "Carregando sua área inicial..."
                 }, void 0, false, {
                     fileName: "[project]/pages/dashboard/index.tsx",
-                    lineNumber: 88,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this),
                 error && error.status !== 401 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     children: error.action || error.message
                 }, void 0, false, {
                     fileName: "[project]/pages/dashboard/index.tsx",
-                    lineNumber: 94,
+                    lineNumber: 95,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -136,13 +138,13 @@ function DashboardPage() {
         `
                 }, void 0, false, {
                     fileName: "[project]/pages/dashboard/index.tsx",
-                    lineNumber: 96,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/dashboard/index.tsx",
-            lineNumber: 87,
+            lineNumber: 88,
             columnNumber: 7
         }, this);
     }
@@ -152,7 +154,7 @@ function DashboardPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: "dashboard-topbar",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         className: "dashboard-brand",
                         href: "/dashboard",
                         "aria-label": "CaixaCerto início",
@@ -163,20 +165,20 @@ function DashboardPage() {
                                 children: "$"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 120,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "CaixaCerto"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 121,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 119,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -188,21 +190,29 @@ function DashboardPage() {
                                 children: "Visão geral"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 124,
+                                lineNumber: 131,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "#recursos",
-                                children: "Recursos"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/accounts-payable",
+                                children: "Contas a pagar"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 125,
+                                lineNumber: 132,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/accounts-receivable",
+                                children: "Contas a receber"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/dashboard/index.tsx",
+                                lineNumber: 133,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 123,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -216,7 +226,7 @@ function DashboardPage() {
                                 children: theme === "light" ? "Tema escuro" : "Tema claro"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 128,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -227,19 +237,19 @@ function DashboardPage() {
                                 children: loggingOut ? "Saindo..." : "Sair"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 136,
+                                lineNumber: 144,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 127,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 118,
+                lineNumber: 119,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -254,14 +264,14 @@ function DashboardPage() {
                                 children: "CAIXACERTO / VISÃO GERAL"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 149,
+                                lineNumber: 157,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 children: "Seu financeiro, mais claro a cada dia."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 150,
+                                lineNumber: 158,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -272,14 +282,14 @@ function DashboardPage() {
                                         children: user.username
                                     }, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 160,
                                         columnNumber: 18
                                     }, this),
                                     ". Organize suas contas e tenha mais tranquilidade para decidir os próximos passos do seu negócio."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 151,
+                                lineNumber: 159,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -292,19 +302,19 @@ function DashboardPage() {
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 164,
                                         columnNumber: 35
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 155,
+                                lineNumber: 163,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 148,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -318,20 +328,20 @@ function DashboardPage() {
                                         className: "summary-indicator"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 169,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Seu espaço financeiro"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 170,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 160,
+                                lineNumber: 168,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -340,50 +350,50 @@ function DashboardPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 173,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 174,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 175,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 176,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 178,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                         fileName: "[project]/pages/dashboard/index.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 179,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 164,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Uma visão organizada começa com cada conta no lugar certo."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 173,
+                                lineNumber: 181,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -391,19 +401,19 @@ function DashboardPage() {
                                 children: "SIMPLES · SEGURO · SEU"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 174,
+                                lineNumber: 182,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 159,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 147,
+                lineNumber: 155,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -416,33 +426,33 @@ function DashboardPage() {
                                 children: "PRONTO PARA COMEÇAR?"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 180,
+                                lineNumber: 188,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Bem-vindo ao seu novo ponto de partida."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 181,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 179,
+                        lineNumber: 187,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Use o CaixaCerto para acompanhar o que entra, planejar o que sai e tomar decisões com mais confiança."
                     }, void 0, false, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 183,
+                        lineNumber: 191,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 178,
+                lineNumber: 186,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -457,7 +467,7 @@ function DashboardPage() {
                                 children: "01"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 191,
+                                lineNumber: 199,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,27 +476,27 @@ function DashboardPage() {
                                 children: "↓"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 192,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "Contas a pagar"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 193,
+                                lineNumber: 203,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Reúna despesas e vencimentos para manter os compromissos do seu negócio sempre à vista."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 194,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 190,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -497,7 +507,7 @@ function DashboardPage() {
                                 children: "02"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 200,
+                                lineNumber: 210,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -506,27 +516,27 @@ function DashboardPage() {
                                 children: "↑"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 201,
+                                lineNumber: 211,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "Contas a receber"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 202,
+                                lineNumber: 214,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Acompanhe entradas previstas e recebidas para entender melhor o movimento do seu caixa."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 203,
+                                lineNumber: 215,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 199,
+                        lineNumber: 209,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -537,7 +547,7 @@ function DashboardPage() {
                                 children: "03"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 209,
+                                lineNumber: 221,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,33 +556,33 @@ function DashboardPage() {
                                 children: "⌁"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 210,
+                                lineNumber: 222,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "Fluxo financeiro"
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 211,
+                                lineNumber: 225,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Tenha uma visão mais clara das movimentações e planeje o crescimento da sua empresa."
                             }, void 0, false, {
                                 fileName: "[project]/pages/dashboard/index.tsx",
-                                lineNumber: 212,
+                                lineNumber: 226,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 208,
+                        lineNumber: 220,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 189,
+                lineNumber: 197,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -585,20 +595,20 @@ function DashboardPage() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 220,
+                        lineNumber: 234,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         children: "Organização precisa para crescer com confiança."
                     }, void 0, false, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 221,
+                        lineNumber: 235,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 219,
+                lineNumber: 233,
                 columnNumber: 7
             }, this),
             logoutError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -609,7 +619,7 @@ function DashboardPage() {
                         children: logoutError
                     }, void 0, false, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 226,
+                        lineNumber: 240,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -619,13 +629,13 @@ function DashboardPage() {
                         children: "×"
                     }, void 0, false, {
                         fileName: "[project]/pages/dashboard/index.tsx",
-                        lineNumber: 227,
+                        lineNumber: 241,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 225,
+                lineNumber: 239,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -818,13 +828,13 @@ function DashboardPage() {
       `
             }, void 0, false, {
                 fileName: "[project]/pages/dashboard/index.tsx",
-                lineNumber: 233,
+                lineNumber: 251,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/dashboard/index.tsx",
-        lineNumber: 117,
+        lineNumber: 118,
         columnNumber: 5
     }, this);
 }
