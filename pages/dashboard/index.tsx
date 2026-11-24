@@ -129,7 +129,8 @@ export default function DashboardPage() {
         </Link>
         <nav className="dashboard-nav" aria-label="Navegação principal">
           <a href="#visao-geral">Visão geral</a>
-          <a href="#recursos">Recursos</a>
+          <Link href="/accounts-payable">Contas a pagar</Link>
+          <Link href="/accounts-receivable">Contas a receber</Link>
         </nav>
         <div className="dashboard-actions">
           <button
